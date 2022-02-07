@@ -1,0 +1,40 @@
+/* Start Of Top Menu */
+.top-menu{
+    text-align: right;
+    margin-top: 8px;
+    margin-right: 18px;
+}
+.top-menu .links{
+    display: inline;
+    padding-right: 8px;
+}
+.top-menu .links a{
+    color: rgba(0,0,0,0.87);
+    font-size: 13px;
+    font-family: sans-serif;
+    padding: 6px;
+}
+.top-menu .menu-icon{
+    opacity: 0.6;
+    width: 44px;
+    margin-right: 5px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.top-menu .menu-icon:hover{
+    cursor: pointer;
+    background-color: rgba(60,64,67,0.08);
+}
+.top-menu .profile{
+    width: 32px;
+    border-radius: 50%;
+}
+/* End Of Top Menu */
+/* Start Of Content */
+.content{
+    text-align: center;
+    margin-top: 170px;
+}
+.content .google-logo{
+    width: 272px;
+}
