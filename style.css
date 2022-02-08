@@ -33,7 +33,7 @@
 /* Start Of Content */
 .content{
     text-align: center;
-    margin-top: 170px;
+    margin-top: 72px;
 }
 .content .google-logo{
     width: 272px;
@@ -47,22 +47,10 @@
 }
 .search-box img{
     position: absolute;
-    left: 5px;
-    top: 8px;
+    width: 20px;
+    left: 10px;
+    top: 13px;
 }
 .search-box input{
     margin-top: 5px;
-}
-@media(min-width: 450px){
-    .search-box{
-        width: 92% !important;
-    }
-    .search-box input{
-        width: 60%;
-    }
-}
-@media(min-width: 633px){
-    .search-box{
-        width: 70%;
-    }
 }
