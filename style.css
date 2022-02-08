@@ -1,31 +1,32 @@
 /* Start Of Top Menu */
-.top-right-menu{
+.top-menu{
     text-align: right;
     margin-top: 8px;
     margin-right: 18px;
 }
-.top-right-menu .links{
+.top-menu .links{
     display: inline;
-    padding-right: 8px;
+    padding-right: 3px;
+    padding-top: 5px;
 }
-.top-right-menu .links a{
+.top-menu .links a{
+    padding-right: 10px;
     color: rgba(0,0,0,0.87);
     font-size: 13px;
     font-family: sans-serif;
-    padding: 6px;
 }
-.top-right-menu .menu-icon{
+.top-menu .menu-icon{
     opacity: 0.6;
     width: 44px;
-    margin-right: 5px;
+    margin-right: 5.5px;
     padding: 10px;
     border-radius: 50%;
 }
-.top-right-menu .menu-icon:hover{
+.top-menu .menu-icon:hover{
     cursor: pointer;
     background-color: rgba(60,64,67,0.08);
 }
-.top-right-menu .profile{
+.top-menu .profile{
     width: 32px;
     border-radius: 50%;
 }
@@ -33,7 +34,7 @@
 /* Start Of Content */
 .content{
     text-align: center;
-    margin: 75px 30px 0 30px;
+    margin: 73px 30px 0 30px;
 }
 .content .google-logo{
     width: 272px;
@@ -45,6 +46,9 @@
     border-radius: 60px;
     position: relative;
 }
+.search-box:hover{
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+}
 .search-box label img{
     position: absolute;
     width: 18px;
@@ -53,10 +57,13 @@
 }
 .search-box input{
     position: absolute;
-    left: 43px;
-    top: 7px;
+    left: 45px;
+    top: 9px;
     width: 90%;
     border: none;
+}
+.search-box input:focus{
+    outline: none;
 }
 @media(min-width: 624px){
     .search-box{
