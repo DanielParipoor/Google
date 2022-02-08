@@ -1,31 +1,31 @@
 /* Start Of Top Menu */
-.top-menu{
+.top-right-menu{
     text-align: right;
     margin-top: 8px;
     margin-right: 18px;
 }
-.top-menu .links{
+.top-right-menu .links{
     display: inline;
     padding-right: 8px;
 }
-.top-menu .links a{
+.top-right-menu .links a{
     color: rgba(0,0,0,0.87);
     font-size: 13px;
     font-family: sans-serif;
     padding: 6px;
 }
-.top-menu .menu-icon{
+.top-right-menu .menu-icon{
     opacity: 0.6;
     width: 44px;
     margin-right: 5px;
     padding: 10px;
     border-radius: 50%;
 }
-.top-menu .menu-icon:hover{
+.top-right-menu .menu-icon:hover{
     cursor: pointer;
     background-color: rgba(60,64,67,0.08);
 }
-.top-menu .profile{
+.top-right-menu .profile{
     width: 32px;
     border-radius: 50%;
 }
@@ -33,24 +33,29 @@
 /* Start Of Content */
 .content{
     text-align: center;
-    margin-top: 72px;
+    margin: 70px 30px 0 30px;
 }
 .content .google-logo{
     width: 272px;
 }
 .search-box{
-    height: 48px !important;
+    height: 46px !important;
     margin: 25px auto !important;
     border: 1px solid #DFE1E5;
     border-radius: 60px;
     position: relative;
 }
-.search-box img{
+.search-box label img{
     position: absolute;
-    width: 20px;
-    left: 10px;
+    width: 18px;
+    left: 15px;
     top: 13px;
 }
 .search-box input{
     margin-top: 5px;
+}
+@media(min-width: 450px){
+    .search-box{
+        width: 582px;
+    }
 }
