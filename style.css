@@ -54,8 +54,13 @@
 .search-box input{
     margin-top: 5px;
 }
-@media(min-width: 450px){
+@media(min-width: 624px){
     .search-box{
         width: 582px;
+    }
+}
+@media(max-width: 624px){
+    .search-box{
+        width: 98%;
     }
 }
