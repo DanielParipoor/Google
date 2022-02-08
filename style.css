@@ -1,3 +1,6 @@
+body{
+    font-family: arial, sans-serif;
+}
 /* Start Of Top Menu */
 .top-menu{
     text-align: right;
@@ -13,7 +16,6 @@
     padding-right: 10px;
     color: rgba(0,0,0,0.87);
     font-size: 13px;
-    font-family: sans-serif;
 }
 .top-menu .menu-icon{
     opacity: 0.6;
@@ -34,7 +36,7 @@
 /* Start Of Content */
 .content{
     text-align: center;
-    margin: 73px 30px 0 30px;
+    margin: 72px 30px 0 30px;
 }
 .content .google-logo{
     width: 272px;
@@ -74,4 +76,19 @@
     .search-box{
         width: 98%;
     }
+}
+.buttons button{
+    background-color: #f8f9fa;
+    color: #202124;
+    border: none;
+    border-radius: 4px;
+    height: 36px;
+    padding: 0 16px;
+    font-size: 14px;
+    margin: 0 4px;
+    letter-spacing: -0.4px;
+}
+.buttons button:hover{
+    border: 1px solid #dadce0;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
 }
