@@ -33,14 +33,14 @@
 /* Start Of Content */
 .content{
     text-align: center;
-    margin: 70px 30px 0 30px;
+    margin: 75px 30px 0 30px;
 }
 .content .google-logo{
     width: 272px;
 }
 .search-box{
     height: 46px !important;
-    margin: 25px auto !important;
+    margin: 26px auto !important;
     border: 1px solid #DFE1E5;
     border-radius: 60px;
     position: relative;
@@ -52,11 +52,15 @@
     top: 13px;
 }
 .search-box input{
-    margin-top: 5px;
+    position: absolute;
+    left: 43px;
+    top: 7px;
+    width: 90%;
+    border: none;
 }
 @media(min-width: 624px){
     .search-box{
-        width: 582px;
+        width: 584px;
     }
 }
 @media(max-width: 624px){
