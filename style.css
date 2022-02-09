@@ -36,7 +36,7 @@ body{
 /* Start Of Content */
 .content{
     text-align: center;
-    margin: 70px 30px 0 30px;
+    margin: 72px 30px 0 30px;
 }
 .content .google-logo{
     width: 272px;
@@ -51,7 +51,7 @@ body{
 .search-box:hover{
     box-shadow: 0 1px 6px rgba(32,33,36, 0.26);
 }
-.search-box label img{
+.search-box label #search-logo{
     position: absolute;
     width: 18px;
     left: 15px;
@@ -67,6 +67,21 @@ body{
 .search-box input:focus{
     outline: none;
 }
+#search-images input{
+    width: 75% !important;
+}
+#camera{
+    width: 24px;
+    position: absolute;
+    right: 60px;
+    cursor: pointer;
+}
+#search-blue{
+    position: absolute;
+    width: 22px;
+    right: 18px;
+    top: 11px;
+}
 @media(min-width: 624px){
     .search-box{
         width: 584px;
@@ -75,6 +90,9 @@ body{
 @media(max-width: 624px){
     .search-box{
         width: 98%;
+    }
+    .search-box input{
+        width: 87%;
     }
 }
 .buttons button{
@@ -103,7 +121,7 @@ body{
     float: right;
 }
 .right-footer, .left-footer{
-    display: inline;
+    display: inline-block;
 }
 .footer a{
     font-size: 14px;
@@ -115,9 +133,11 @@ body{
 .footer a:hover{
     color: #70757a;
 }
-@media(max-width: 624px){
+@media(max-width: 663px){
     .right-footer{
-        position: relative;
+        padding-top: 20px;
+    }
+    .right-footer a{
         text-align: center;
     }
 }
