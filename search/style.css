@@ -21,12 +21,12 @@ body{
     opacity: 0.6;
     width: 44px;
     margin-right: 5.5px;
-    padding: 10px;
+    padding: 9px;
     border-radius: 50%;
 }
 .top-menu .menu-icon:hover{
     cursor: pointer;
-    background-color: rgba(60,64,67,0.0.8);
+    background-color: rgba(60, 64, 67, 0.1);
 }
 .top-menu .profile{
     width: 32px;
