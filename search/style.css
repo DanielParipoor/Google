@@ -19,7 +19,7 @@ body{
 }
 .top-menu .menu-icon{
     opacity: 0.6;
-    width: 44px;
+    width: 42px;
     margin-right: 5.5px;
     padding: 9px;
     border-radius: 50%;
@@ -140,4 +140,36 @@ body{
     .right-footer a{
         text-align: center;
     }
+}
+
+/* start google advance styles */
+.link-google{
+    width: 73px;
+    margin: 20px;
+}
+.advance-content form{
+    background-color: mediumaquamarine;
+}
+.advance-content h5{
+    margin: 30px 45px;
+    color: #d93025;
+    font-weight: 450;
+}
+.advance-content form{
+    margin: 30px 45px;
+    position: relative;
+}
+.advance-content form p:nth-child(1){
+    display: inline;
+}
+.advance-content form span:nth-child(2){
+    color: #777;
+    font-size: 14px;
+    font-weight: 550;
+    position: absolute;
+    right: 30%;
+}
+.fields input{
+    margin-top: 30px;
+    width: 572px;
 }
