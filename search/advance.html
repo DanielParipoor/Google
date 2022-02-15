@@ -27,12 +27,29 @@
             <hr>
             <form action="https://www.google.com/advanced_search">
                 <p> Find pages with... </p>
-                <span>  To do this in the search box. </span>
+                <span id="gray-text">  To do this in the search box. </span>
                 <div class="fields">
-                    <label>
-                        all these words:
+                    <div class="labels">
+                        <span> all these words: </span>
+                        <span> this exact word or phrase: </span>
+                        <span> any of these words: </span>
+                        <span> none of these words: </span>
+                    </div>
+                    <div class="inputs">
                         <input type="text">
-                    </label>
+                        <input type="text">
+                        <input type="text">
+                        <input type="text">
+                    </div>
+                    <div class="description">
+                        <span> Type the important words: tri-colour rat terrier </span>
+                        <span> Put exact words in quotes: "rat terrier" </span>
+                        <span> Type OR between all the words you want: miniature OR standard </span>
+                        <span> Put a minus sign just before words that you don't want: <br> -rodent, -"Jack
+                            Russell"
+                        </span>
+                    </div>
+                    <input type="submit" value="Advance Search">
                 </div>
             </form>
         </div>
