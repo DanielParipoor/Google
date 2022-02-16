@@ -11,6 +11,9 @@
     </head>
     <body>
         <div class="top-menu" style="display: inline-block; position: absolute; right: 0;">
+            <div class="links">
+                <a href="index.html"> Google Search </a>
+            </div>
             <!--copy from Google inspect(svg tag and path tag)-->
             <svg class="menu-icon" focusable="false" viewBox="0 0 24 24"><path
                     d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path></svg>
@@ -25,31 +28,32 @@
         <div class="advance-content">
             <h5> Advance Search </h5>
             <hr>
-            <form action="https://www.google.com/advanced_search">
+            <form action="https://www.google.com/search">
                 <p> Find pages with... </p>
                 <span id="gray-text">  To do this in the search box. </span>
                 <div class="fields">
                     <label>
                         all these words:
-                        <input type="text">
+                        <input type="text" name="as_q">
                         <span> Type the important words: tri-colour rat terrier </span>
                     </label>
                     <label>
                         this exact word or phrase:
-                        <input type="text" style="margin-left: 32px;">
+                        <input type="text" name="as_epq" style="margin-left: 32px;">
                         <span> Put exact words in quotes: "rat terrier" </span>
                     </label>
                     <label>
                         any of these words:
-                        <input type="text" style="margin-left: 68px;">
+                        <input type="text" name="as_oq" style="margin-left: 68px;">
                         <span> Type OR between all the words you want: miniature OR standard </span>
                     </label>
                     <label>
                         none of these words:
-                        <input type="text" style="margin-left: 60px;">
+                        <input type="text" name="as_eq" style="margin-left: 60px;">
                         <span> Put a minus sign just before words that you don't want: -rodent
                         </span>
                     </label>
+                    <button type="submit"> Advance Search </button>
                 </div>
             </form>
         </div>
